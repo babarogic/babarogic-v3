@@ -50,7 +50,7 @@ const Hero = styled("div")`
     h3 {
         margin-bottom: 4rem;
         font-weight: 400;
-        line-height: 1.5;
+        max-width: 44ch;
     }
 `
 

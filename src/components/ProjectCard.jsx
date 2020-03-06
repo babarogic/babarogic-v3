@@ -10,6 +10,7 @@ const ProjectCardContainer = styled(Link)`
     display: grid;
     grid-template-columns: 4fr 7fr;
     border: 1px solid #f3f3f3;
+    border-radius: 4px;
     margin-bottom: 4em;
     transition: all 250ms ease-in-out;
     text-decoration: none;
@@ -126,7 +127,7 @@ const ProjectCardAction = styled("div")`
 `
 
 const ProjectCardImageContainer = styled("div")`
-    background: ${colors.grey200};
+    background: ${colors.blue200};
     display: flex;
     justify-content: center;
     align-items: flex-end;

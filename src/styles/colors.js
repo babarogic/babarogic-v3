@@ -9,6 +9,7 @@ const colors = {
     blue300: "#cbdfff",
     blue200: "#e3efff",
     blue100: "#f1f8ff",
+    bluePrimary: "#506CF5",
 
     green600: "#61A840",
     green500: "#6CBB47",
@@ -24,6 +25,7 @@ const colors = {
     grey300: "#E9EAEA",
     grey200: "#F2F2F2",
     grey100: "#F9F9FA",
+    grey050: "#FAFBFF",
 
     orange600: "#DC6039",
     orange500: "#F46B3F",

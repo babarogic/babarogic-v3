@@ -3,7 +3,7 @@ import dimensions from "styles/dimensions";
 
 const typeStyles = css`
     h1 {
-        font-size: 2.8em;
+        font-size: 2.9em;
         line-height: 1.45;
         font-weight: 800;
 
@@ -23,8 +23,8 @@ const typeStyles = css`
     }
 
     h3 {
-        line-height: 1.2;
-        font-size: 1.5em;
+        line-height: 1.5;
+        font-size: 1.75em;
     }
 
     h5 {
