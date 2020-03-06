@@ -9,9 +9,9 @@ import PropTypes from "prop-types";
 const ProjectCardContainer = styled(Link)`
     display: grid;
     grid-template-columns: 4fr 7fr;
-    box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.06);
+    border: 1px solid #f3f3f3;
     margin-bottom: 4em;
-    transition: all 150ms ease-in-out;
+    transition: all 250ms ease-in-out;
     text-decoration: none;
     color: currentColor;
 
@@ -28,8 +28,17 @@ const ProjectCardContainer = styled(Link)`
     }
 
     &:hover {
-        box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.1);
-        transition: all 150ms ease-in-out;
+        box-shadow:
+        0 0.4px 0.9px -1px rgba(0, 0, 0, 0.017),
+        0 1.4px 2.1px -1px rgba(0, 0, 0, 0.019),
+        0 3.3px 4px -1px rgba(0, 0, 0, 0.019),
+        0 6.9px 7.1px -1px rgba(0, 0, 0, 0.019),
+        0 14.2px 13.4px -1px rgba(0, 0, 0, 0.022),
+        0 29px 32px -1px rgba(0, 0, 0, 0.03)
+      ;
+
+
+        transition: all 250ms ease-in-out;
 
         .ProjectCardAction {
             color: ${colors.blue500};
@@ -58,6 +67,7 @@ const ProjectCardContent = styled("div")`
     background: white;
     padding: 4em 3em 2.25em 3em;
     position: relative;
+    z-index: -1;
 
     &:before {
         position: absolute;
@@ -157,7 +167,7 @@ const ProjectCardImageContainer = styled("div")`
     }
 `
 
-const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
+const ProjectCard = ({ category, title, description, thumbnail, uid }) => (
     <ProjectCardContainer to={`/work/${uid}`}>
         <ProjectCardContent className="ProjectCardContent">
             <ProjectCardCategory>
@@ -174,7 +184,7 @@ const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
             </ProjectCardAction>
         </ProjectCardContent>
         <ProjectCardImageContainer className="ProjectCardImageContainer">
-            <img src={thumbnail.url} alt={title[0].text}/>
+            <img src={thumbnail.url} alt={title[0].text} />
         </ProjectCardImageContainer>
     </ProjectCardContainer>
 )

@@ -31,7 +31,7 @@ const ButtonContainer = styled("button")`
         top: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(135deg, ${colors.pink400} 0%, ${colors.purple400} 100%);
+        background: linear-gradient(135deg, ${colors.green200} 0%, ${colors.blue400} 100%);
         z-index: -1;
     }
 

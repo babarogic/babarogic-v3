@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Prist | Gatsby & Prismic Starter`,
-        description: `A starter powered by Gatsby and Prismic to showcase portfolios and blogs.`,
-    author: `Marguerite Roth | marguerite.io`,
+    title: `Goran Babarogic Professional UX UI Designer & Front End Developer`,
+        description: `I’m a Full Stack Designer with over a decade of experience in product and communication design`,
+    author: `Goran Babarogic`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -46,7 +46,7 @@ module.exports = {
     {
         resolve: `gatsby-plugin-google-analytics`,
         options: {
-            trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+            trackingId: "UA-111785389-1",
             head: true,
         },
     },

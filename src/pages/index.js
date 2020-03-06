@@ -15,7 +15,7 @@ const Hero = styled("div")`
     padding-top: 2.5em;
     padding-bottom: 3em;
     margin-bottom: 6em;
-    max-width: 830px;
+    max-width: 100%;
 
     @media(max-width:${dimensions.maxwidthMobile}px) {
        margin-bottom: 3em;
@@ -46,6 +46,11 @@ const Hero = styled("div")`
 
             }
         }
+    }
+    h3 {
+        margin-bottom: 4rem;
+        font-weight: 400;
+        line-height: 1.5;
     }
 `
 
