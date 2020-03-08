@@ -9,7 +9,7 @@ import Button from "components/_ui/Button";
 import Layout from "components/Layout";
 
 const ProjectHeroContainer = styled("div")`
-    background: ${colors.grey200};
+    background: ${colors.blue200};
     display: flex;
     justify-content: center;
     align-items: flex-end;
