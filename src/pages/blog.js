@@ -39,7 +39,7 @@ const Blog = ({ posts, meta }) => (
                 },
                 {
                     property: `og:title`,
-                    content: `Blog | Goran Babarogic - UX UI Designer & Front End Developer`,
+                    content: meta.title,
                 },
                 {
                     property: `og:description`,
