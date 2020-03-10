@@ -27,12 +27,14 @@ const Hero = styled("div")`
         a {
             text-decoration: none;
             transition: all 100ms ease-in-out;
+            color: inherit;
 
             &:nth-of-type(1) { color: ${colors.blue500}; }
-            &:nth-of-type(2) { color: ${colors.orange500}; }
-            &:nth-of-type(3) { color: ${colors.purple500}; }
-            &:nth-of-type(4) { color: ${colors.green500}; }
-            &:nth-of-type(5) { color: ${colors.teal500}; }
+            // &:nth-of-type(2) { color: ${colors.orange500}; }
+            // &:nth-of-type(3) { color: ${colors.purple500}; }
+            // &:nth-of-type(4) { color: ${colors.green500}; }
+            // &:nth-of-type(5) { color: ${colors.teal500}; }
+
 
             &:hover {
                 cursor: pointer;
