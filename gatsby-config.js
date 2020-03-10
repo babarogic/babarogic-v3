@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Goran Babarogic - Professional UX UI Designer & Front End Developer`,
-        description: `I’m Goran Babarogic self-taught full stack designer from Serbia. Over decade of experience in product and communication design, front end development and interfaces.`,
+    description: `I’m Goran Babarogic self-taught full stack designer from Serbia. Over decade of experience in product and communication design, front end development and interfaces.`,
     author: `Goran Babarogic`,
   },
   plugins: [
@@ -24,11 +24,11 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-        resolve: 'gatsby-source-prismic-graphql',
-        options: {
-            repositoryName: 'babarogic-prist', // (REQUIRED, replace with your own)
-            linkResolver: () => post => `/${post.uid}`,
-        }
+      resolve: 'gatsby-source-prismic-graphql',
+      options: {
+        repositoryName: 'babarogic-prist', // (REQUIRED, replace with your own)
+        linkResolver: () => post => `/${post.uid}`,
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -44,11 +44,28 @@ module.exports = {
     },
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
     {
-        resolve: `gatsby-plugin-google-analytics`,
-        options: {
-            trackingId: "UA-111785389-1",
-            head: true,
-        },
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-111785389-1",
+        head: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 1342169,
+        sv:
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:1342169,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
