@@ -16,6 +16,10 @@ const colors = {
     green200: "#E2F1DA",
     green100: "#F0F8ED",
 
+    yellow600: "#A58227",
+    yellow400: "#FACA00",
+    yellow200: "#FFEDA1",
+
     grey900: "#111010",
     grey800: "#3D3F42",
     grey700: "#7D7F81",
