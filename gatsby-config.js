@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Goran Babarogic Professional UX UI Designer & Front End Developer`,
-        description: `I’m a Full Stack Designer with over a decade of experience in product and communication design`,
+    title: `Goran Babarogic - Professional UX UI Designer & Front End Developer`,
+        description: `I’m Goran Babarogic self-taught full stack designer from Serbia. Over decade of experience in product and communication design, front end development and interfaces.`,
     author: `Goran Babarogic`,
   },
   plugins: [
