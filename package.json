@@ -1,7 +1,7 @@
 {
   "name": "babarogic-v3",
   "private": true,
-  "description": "A starter powered by Gatsby and Prismic to showcase portfolios and blogs.",
+  "description": "Portfolio",
   "version": "0.1.0",
   "author": "Goran Babarogic | babarogic.com | goran@babarogic.com",
   "dependencies": {
