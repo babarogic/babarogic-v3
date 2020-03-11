@@ -79,11 +79,9 @@ const Header = () => (
                 <Logo/>
             </Link>
             <HeaderLinks>
-                <Link
-                    activeClassName="Link--is-active"
-                    to="/Goran_Babarogic_CV.pdf">
+                <a href="Goran_Babarogic_CV.pdf">
                     <span role="img" aria-label="resume">📃</span> Resume
-                </Link>
+                </a>
                 <Link
                     activeClassName="Link--is-active"
                     to="/work">
