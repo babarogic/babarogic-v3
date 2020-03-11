@@ -61,6 +61,10 @@ const AboutBio = styled("div")`
     padding-bottom: 3em;
     max-width: 480px;
 
+    a {
+        text-decoration: none;
+    }
+
 
     @media(max-width: ${dimensions.maxwidthMobile}px) {
         grid-row: 2;

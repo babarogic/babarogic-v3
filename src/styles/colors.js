@@ -29,7 +29,7 @@ const colors = {
     grey300: "#E9EAEA",
     grey200: "#F2F2F2",
     grey100: "#F9F9FA",
-    grey050: "#FAFBFF",
+    grey050: "#f7f8fa",
 
     orange600: "#DC6039",
     orange500: "#F46B3F",

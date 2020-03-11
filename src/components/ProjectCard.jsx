@@ -30,16 +30,15 @@ const ProjectCardContainer = styled(Link)`
 
     &:hover {
         box-shadow:
-        0 0.4px 0.9px -1px rgba(0, 0, 0, 0.017),
-        0 1.4px 2.1px -1px rgba(0, 0, 0, 0.019),
-        0 3.3px 4px -1px rgba(0, 0, 0, 0.019),
-        0 6.9px 7.1px -1px rgba(0, 0, 0, 0.019),
-        0 14.2px 13.4px -1px rgba(0, 0, 0, 0.022),
-        0 29px 32px -1px rgba(0, 0, 0, 0.03)
-      ;
-
-
-        transition: all 250ms ease-in-out;
+            0 0.4px 0.9px -1px rgba(0, 0, 0, 0.017),
+            0 1.4px 2.1px -1px rgba(0, 0, 0, 0.019),
+            0 3.3px 4px -1px rgba(0, 0, 0, 0.019),
+            0 6.9px 7.1px -1px rgba(0, 0, 0, 0.019),
+            0 14.2px 13.4px -1px rgba(0, 0, 0, 0.022),
+            0 29px 32px -1px rgba(0, 0, 0, 0.03)
+        ;
+        transform: translate(0, -6px);
+        transition: all 250ms ease-in;
 
         .ProjectCardAction {
             color: ${colors.blue500};

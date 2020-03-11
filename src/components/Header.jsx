@@ -17,11 +17,11 @@ const HeaderContent = styled("div")`
 
 const HeaderLinks = styled("div")`
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 7em;
     justify-content: flex-end;
-    width: 100%;
-    max-width: 200px;
+    width: auto;
+    max-width: 100%;
 
     @media(max-width: ${dimensions.maxwidthTablet}px) {
         grid-gap: 5.5em;
@@ -47,12 +47,12 @@ const HeaderLinks = styled("div")`
             position: absolute;
             content: "";
             bottom: 0;
-            width: 18px;
+            width: 64px;
             height: 3px;
             background: transparent;
-            bottom: -3px;
+            bottom: 6px;
             right: 50%;
-            margin-right: -9px;
+            margin-right: -34px;
             transition: 100ms ease-in-out background;
         }
 
@@ -81,13 +81,18 @@ const Header = () => (
             <HeaderLinks>
                 <Link
                     activeClassName="Link--is-active"
+                    to="/Goran_Babarogic_CV.pdf">
+                    <span role="img" aria-label="resume">📃</span> Resume
+                </Link>
+                <Link
+                    activeClassName="Link--is-active"
                     to="/work">
-                    Work
+                    <span role="img" aria-label="work">💼</span> Work
                 </Link>
                 <Link
                     activeClassName="Link--is-active"
                     to="/blog">
-                    Blog
+                    <span role="img" aria-label="blog">✍</span> Blog
                 </Link>
             </HeaderLinks>
         </HeaderContent>
