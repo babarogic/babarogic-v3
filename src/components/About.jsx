@@ -75,6 +75,10 @@ const AboutActions = styled("div")`
     padding-top: 1em;
     padding-bottom: 3em;
 
+    a {
+        text-decoration: none;
+    }
+
 
     @media(max-width: ${dimensions.maxwidthMobile}px) {
         padding: 0;
