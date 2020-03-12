@@ -48,6 +48,11 @@ const ButtonContainer = styled("button")`
         padding: 0.95em 1.8em;
         font-size: 0.95rem;
 
+        @media(max-width:${dimensions.maxwidthMobile}px) {
+            display: block;
+            width: 100%;
+        }
+
         &:hover {
             background: ${colors.blue300};
             transition: background 100ms ease-in-out;
